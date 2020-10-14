@@ -17,6 +17,7 @@ public class checkwithusernamenull extends Commonoperations
 		//check with user id null
 		//hello text
 		//hello text 123
+		//new fetch
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("");
