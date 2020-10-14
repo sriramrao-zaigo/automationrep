@@ -14,7 +14,7 @@ WebDriver driver;
 		 
 		 
 
-		    @FindBy(name="email")
+		    @FindBy(name="login")
 			public static  WebElement userName;
 
 		    @FindBy(name="password")
@@ -23,10 +23,10 @@ WebDriver driver;
 		    @FindBy(xpath="/html/body/div/div/div/div/div/form/div/div[4]/div/a")
 		    public static WebElement titleText;
 
-		    @FindBy(tagName="button")
+		    @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[4]/button")
 		    public static  WebElement login;
 
-		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
+		   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[1]/span")
 		   public static  WebElement email_err;
 		   
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
