@@ -24,7 +24,7 @@ import PageObjects.Resetpassword;
 			Resetpassword.password.sendKeys("co!@123");
 			String user_text=Loginobjects.password.getText();
 			Assert.assertEquals(user_text,"co!@123" );
-			//
+			//add new feature
 			
 		}
 		
