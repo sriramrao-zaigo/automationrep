@@ -15,7 +15,7 @@ public class checkforgotpassword_email_null extends Commonoperations
 	@Test
 	public void checkerrormsg_emailnull()
 	{
-		//check email is null
+		//check email is null//
 		
 		PageFactory.initElements(driver, Forgotpassword.class);
 		Forgotpassword.Email.sendKeys("");

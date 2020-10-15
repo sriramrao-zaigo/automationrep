@@ -24,7 +24,7 @@ WebDriver driver;
 		    public static WebElement titleText;
 
 		    @FindBy(tagName="button")
-		    public static  WebElement login;
+		    public static  WebElement login_btn;
 
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
 		   public static  WebElement email_err;
@@ -32,8 +32,22 @@ WebDriver driver;
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
 		   public static  WebElement password_w;
 		   
+		   @FindBy(xpath=" //*[@id=\"root\"]/div/div[2]/div/form/div[2]/div[2]")
+		   public static  WebElement password_err;
+		   
+		   
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
 		   public static  WebElement  userid_lable;
+		   
+		   
+		   @FindBy(xpath=" //*[@id=\"root\"]/div/div[2]/div/form/div[1]/div/div[1]/label")
+		   public static  WebElement  userid_placeholder;
+		   
+		   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/h5")
+		   public static  WebElement  login_page_title;
+		   
+		
+		   
 		   
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
 		   public static  WebElement  forgot_password;

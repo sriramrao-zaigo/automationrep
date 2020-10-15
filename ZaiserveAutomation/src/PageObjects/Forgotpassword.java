@@ -17,7 +17,7 @@ public class Forgotpassword {
     @FindBy(name="email")
 	public static  WebElement Email;
 
-   @FindBy(name="send")
+   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[2]/button")
    public static WebElement send_btn;
    
    
@@ -32,6 +32,11 @@ public class Forgotpassword {
    
    @FindBy(name="login_link")
    public static WebElement loginPage_link;
+   
+   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/h5")
+   public static WebElement forgotpassword_title;
+   
+
 
 
 }

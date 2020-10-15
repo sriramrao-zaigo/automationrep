@@ -16,8 +16,8 @@ public class checkinvalidemail extends Commonoperations {
 		//check with invalid email id.
 		
 		PageFactory.initElements(driver, Loginobjects.class);
-		Loginobjects.userName.sendKeys("hell0");
-		Loginobjects.login.click();
+		Loginobjects.userName.sendKeys("hello");
+		Loginobjects.login_btn.click();
 		String user_text=Loginobjects.email_err.getText();
 		Assert.assertEquals(user_text,"Enter a valid e-mail address");
 	}

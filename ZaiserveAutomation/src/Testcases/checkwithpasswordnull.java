@@ -18,10 +18,9 @@ public class checkwithpasswordnull extends Commonoperations
 		
 		
 		PageFactory.initElements(driver, Loginobjects.class);
-		Loginobjects.password.sendKeys("");
-		Loginobjects.login.click();
-		String user_text=Loginobjects.password_w.getText();
-		Assert.assertEquals(user_text,"Enter your e-mail");
+		Loginobjects.login_btn.click();
+		String user_text=Loginobjects.password_err.getText();
+		Assert.assertEquals(user_text,"Enter your password");
 	}
 	
 	

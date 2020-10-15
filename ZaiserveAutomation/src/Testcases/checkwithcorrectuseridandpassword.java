@@ -18,7 +18,7 @@ public class checkwithcorrectuseridandpassword extends Commonoperations
 		
 		
 		PageFactory.initElements(driver, Loginobjects.class);
-		Loginobjects.userName.sendKeys("hello@");
+		Loginobjects.userName.sendKeys("hello@as.in");
 		Loginobjects.password.sendKeys("nhjm");
 		String dashboard_url= driver.getCurrentUrl();
 		Assert.assertEquals(dashboard_url,"http://dev.zaicrm.com/#/");

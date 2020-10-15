@@ -14,17 +14,13 @@ public class checkwithusernamenull extends Commonoperations
 	@Test
 	public void checkwithusernameempty()
 	{
-		//check with user id null
-		//hello text
-		//hello text 123
-		//new fetch
-		//fetch3
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("");
-		Loginobjects.login.click();
+		Loginobjects.login_btn.click();
 		String user_text=Loginobjects.email_err.getText();
 		Assert.assertEquals(user_text,"Enter your e-mail");
+	
 	}
 	
 	

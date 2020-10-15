@@ -3,41 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Testcases.checkwithcorrectuseridandpassword"/>
-    <class name="Testcases.checkresetpassword_characterlimit"/>
-      <class name="Testcases.checkincorretuseridandincorrectpswd"/>
-      <class name="Testcases.checkresetpassword_mismatch"/>
-      <class name="Testcases.checkeorrectuidandincorrectpassword"/>
-      <class name="Testcases.checkforgotpassword_LoginLink"/>
-      <class name="Testcases.checkresetpassword_characters"/>
-      <class name="Testcases.checksuccessmessageforgotpassword"/>
-      <class name="Testcases.checkresetpassword_passwordfieldexist"/>
-      <class name="Testcases.checkResetpasswordfield_null"/>
-      <class name="Testcases.checkwithemptyspacespswd"/>
-      <class name="Testcases.checkresetpassword_confirmpasswordexist"/>
-      <class name="Testcases.Checkforgotpassword_lable"/>
-      <class name="Testcases.checkforgotpassword_successmessage"/>
-      <class name="Testcases.checkforgotpassword_email_null"/>
-      <class name="Testcases.checkwithemptyspacesinuserid"/>
-      <class name="Testcases.checkwithnulluseridnullpassword"/>
-      <class name="Testcases.checkwithnumalphabetsspecialcharacters"/>
-      <class name="Testcases.checkwithforgotpasswordlink"/>
-      <class name="Testcases.checkresetpassword_confirmpassword_null"/>
-      <class name="Testcases.checknavigatetoforgotpassword"/>
-      <class name="Testcases.checkforgotpassword_emailformat"/>
-      <class name="Testcases.checkforgotpassword_send"/>
+      <class name="Testcases.checkwithvalidemailid"/>
+    <class name="Testcases.checkwithusernamenull"/>
       <class name="Testcases.checkwithpasswordnull"/>
-      <class name="Testcases.checkforgotpassword_emailfieldexist"/>
-      <class name="Testcases.checkresetpassword_password"/>
-      <class name="Testcases.checkwithvalidemail"/>
-      <class name="Testcases.checkcinputtype"/>
-      <class name="Testcases.checkinvalidemail"/>
-      <class name="Testcases.Checkforgotpassword_emailnotexist"/>
-      <class name="Testcases.checkuseridplaceholder"/>
-      <class name="Testcases.checkloginbtnpresent"/>
-      <class name="Testcases.checkwithusernamenull"/>
-      <class name="Testcases.checkiLogin_Lable"/>
-      <class name="Testcases.checkcharactersinpasswordfield"/> 
+      <class name="Testcases.heckwithnumalphabetsspecialcharacters"/>
+        <class name="Testcases.checkwithnulluseridnullpassword"/>
+        <class name="Testcases.checkwithforgotpasswordlink"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

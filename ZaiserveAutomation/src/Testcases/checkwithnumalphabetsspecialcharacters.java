@@ -18,9 +18,9 @@ public class checkwithnumalphabetsspecialcharacters extends Commonoperations {
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("hello1993@zaiserve.com");
-		Loginobjects.login.click();
+		Loginobjects.login_btn.click();
 		String user_text=Loginobjects.email_err.getText();
-		Assert.assertEquals(user_text,"");
+		Assert.assertEquals(user_text,"hello1993@zaiserve.com");
 	}
 	
 	

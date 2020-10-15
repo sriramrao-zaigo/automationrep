@@ -13,7 +13,7 @@ public class Checkforgotpassword_emailnotexist extends Commonoperations{
 	@Test
 	public void checkemailnotexist()
 	{
-		//check email not exist
+		//check email not exist//
 		
 		PageFactory.initElements(driver, Forgotpassword.class);
 		Forgotpassword.Email.sendKeys("notexist@zaiserve.com");

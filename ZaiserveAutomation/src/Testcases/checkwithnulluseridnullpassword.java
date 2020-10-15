@@ -20,7 +20,7 @@ public class checkwithnulluseridnullpassword extends Commonoperations
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("");
 		Loginobjects.password.sendKeys("");
-		Loginobjects.login.click();
+		Loginobjects.login_btn.click();
 		String user_text=Loginobjects.email_err.getText();
 		Assert.assertEquals(user_text,"Enter your e-mail");
 	}

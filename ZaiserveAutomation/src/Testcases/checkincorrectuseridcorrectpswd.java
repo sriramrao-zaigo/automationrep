@@ -20,7 +20,7 @@ public class checkincorrectuseridcorrectpswd extends Commonoperations
 		Loginobjects.userName.sendKeys("hello@zai.com");
 		Loginobjects.password.sendKeys("correct");
 		String err_msg =Loginobjects.email_err.getText();
-		Assert.assertEquals(err_msg,"Invalid user id or password");
+		Assert.assertEquals(err_msg,"");
 		
 		
 	}

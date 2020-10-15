@@ -19,7 +19,7 @@ import PageObjects.Loginobjects;
 			//check Login btn is present
 			
 			PageFactory.initElements(driver, Loginobjects.class);
-			String loginbtn= Loginobjects.login.getText();
+			String loginbtn= Loginobjects.login_btn.getText();
 			Assert.assertEquals(loginbtn, "LOGIN");
 			
 			

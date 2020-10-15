@@ -14,7 +14,7 @@ public class checksuccessmessageforgotpassword extends Commonoperations
 	@Test
 	public void checkforgotpassword_succesmessage()
 	{
-		//check the password field is present.
+		//check the password field is present.//
 		
 		
 		PageFactory.initElements(driver, Loginobjects.class);

@@ -14,14 +14,14 @@ public class checkwithvalidemail extends Commonoperations
 	@Test
 	public void checkwithvalidemailid()
 	{
-		//check with valid email id,and check error message displayed
+		//check with valid email id,and check error message is displayed
 		
 		
 		
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("hell0@gmail.com");
-		Loginobjects.login.click();
+		Loginobjects.login_btn.click();
 		String user_text=Loginobjects.email_err.getText();
 		Assert.assertEquals(user_text,"");
 	}

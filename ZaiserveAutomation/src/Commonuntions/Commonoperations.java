@@ -20,9 +20,10 @@ public class Commonoperations
 	public void Startbrowser()
 	{
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\lenovo\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
 
+ 	   System.setProperty("webdriver.chrome.driver", "C:\\Users\\lenovo\\Downloads\\Testjenkins-master\\chromedriver\\chromedriver.exe");
+
+ 		driver = new ChromeDriver();
  		driver.get("http://dev.zaicrm.com/#/");
  		driver.manage().window().maximize();
 		

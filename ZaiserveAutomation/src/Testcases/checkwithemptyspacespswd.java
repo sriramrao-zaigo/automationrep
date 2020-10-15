@@ -21,8 +21,8 @@ import PageObjects.Loginobjects;
 			
 			PageFactory.initElements(driver, Loginobjects.class);
 			Loginobjects.password.sendKeys("     ");
-			Loginobjects.login.click();
-			String user_text=Loginobjects.password_w.getText();
+			Loginobjects.login_btn.click();
+			String user_text=Loginobjects.password_err.getText();
 			Assert.assertEquals(user_text,"Enter your password");
 		}
 		

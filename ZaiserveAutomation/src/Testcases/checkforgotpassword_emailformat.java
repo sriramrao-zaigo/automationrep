@@ -14,7 +14,7 @@ public class checkforgotpassword_emailformat extends Commonoperations
 	@Test
 	public void checkerrormsg_emailformat()
 	{
-		//check email is in format
+		//check email is in format//
 		
 		PageFactory.initElements(driver, Forgotpassword.class);
 		Forgotpassword.Email.sendKeys("john@zai");
