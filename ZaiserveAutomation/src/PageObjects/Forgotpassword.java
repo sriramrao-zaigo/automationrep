@@ -30,7 +30,7 @@ public class Forgotpassword {
    @FindBy(name="lable")
    public static WebElement Forgotpassword_lable;
    
-   @FindBy(name="login_link")
+   @FindBy(name="//*[@id=\"root\"]/div/div[2]/div/form/div[3]/a/button")
    public static WebElement loginPage_link;
 
 

@@ -17,7 +17,7 @@ public class Checkforgotpassword_lable extends Commonoperations{
 		
 		PageFactory.initElements(driver, Forgotpassword.class);
 		String lable_msg= Forgotpassword.Forgotpassword_lable.getText();
-		Assert.assertEquals(lable_msg,"Email not exist");
+		Assert.assertEquals(lable_msg,"Forget Password");
 		
 		
 		

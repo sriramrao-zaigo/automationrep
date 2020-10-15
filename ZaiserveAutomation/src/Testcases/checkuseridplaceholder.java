@@ -18,6 +18,7 @@ public class checkuseridplaceholder  extends Commonoperations
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		String user_text=Loginobjects.userid_lable.getText();
+		//System.out.println(user_text);
 		Assert.assertEquals(user_text,"User Name");
 	}
 	

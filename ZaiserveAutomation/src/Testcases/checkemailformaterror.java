@@ -18,7 +18,6 @@ public class checkemailformaterror extends Commonoperations
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("hello@");
-		Loginobjects.password.sendKeys("hello");
 		Loginobjects.login.click();
 		String err_msg =Loginobjects.email_err.getText();
 		Assert.assertEquals(err_msg,"Enter a valid e-mail address");

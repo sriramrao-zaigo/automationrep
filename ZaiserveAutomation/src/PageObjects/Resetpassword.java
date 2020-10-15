@@ -8,10 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Resetpassword
 
+
 {
 	
 	
-WebDriver driver;
+	WebDriver driver;
 		 
 		 
 
@@ -28,7 +29,7 @@ WebDriver driver;
 		    public static  WebElement reset;
 
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
-		   public static  WebElement email_err;
+		   public static  WebElement password_err;
 
 		   
 		   

@@ -20,8 +20,8 @@ import PageObjects.Loginobjects;
 			
 			PageFactory.initElements(driver, Loginobjects.class);
 			Loginobjects.password.sendKeys("password");
-			String user_text=Loginobjects.userName.getText();
-			Assert.assertEquals(user_text,"password" );
+			boolean user_text=Loginobjects.password.isDisplayed();
+			Assert.assertEquals(user_text,true );
 			
 		}
 		

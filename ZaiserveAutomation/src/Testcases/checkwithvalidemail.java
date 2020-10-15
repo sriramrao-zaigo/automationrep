@@ -22,8 +22,7 @@ public class checkwithvalidemail extends Commonoperations
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("hell0@gmail.com");
 		Loginobjects.login.click();
-		String user_text=Loginobjects.email_err.getText();
-		Assert.assertEquals(user_text,"");
+		
 	}
 	
 	

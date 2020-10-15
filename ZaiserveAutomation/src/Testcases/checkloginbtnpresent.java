@@ -20,7 +20,7 @@ import PageObjects.Loginobjects;
 			
 			PageFactory.initElements(driver, Loginobjects.class);
 			String loginbtn= Loginobjects.login.getText();
-			Assert.assertEquals(loginbtn, "LOGIN");
+			Assert.assertEquals(loginbtn, "Login");
 			
 			
 		}

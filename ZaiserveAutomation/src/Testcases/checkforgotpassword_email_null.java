@@ -17,7 +17,10 @@ public class checkforgotpassword_email_null extends Commonoperations
 	{
 		//check email is null
 		
+		driver.get("http://dev.zaicrm.com/#/forgot-password");
+		
 		PageFactory.initElements(driver, Forgotpassword.class);
+		
 		Forgotpassword.Email.sendKeys("");
 		Forgotpassword.send_btn.click();
 		String err_msg= Forgotpassword.err_msg.getText();
