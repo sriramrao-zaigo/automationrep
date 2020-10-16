@@ -5,9 +5,9 @@
     <classes>
      
     
-        <!--  
+         
   <class name="Testcases.checkwithusernamenull"/>
-    <class name="Testcases.checkwithnumalphabetsspecialcharacters"/>
+   <!--<class name="Testcases.checkwithnumalphabetsspecialcharacters"/>
     <class name="Testcases.checkwithemptyspacesinuserid"/> 
       <class name="Testcases.checkcinputtype"/>
       
@@ -31,10 +31,14 @@
       
      
       
-      <class name="Testcases.checkpassword_limits"/>-->
+      <class name="Testcases.checkpassword_limits"/>
       
       
       <class name="Testcases.checkforgotpassword_LoginLink"/>
+      
+      <class name="Testcases.checkwithvalidemail"/>-->
+      
+      
    
   
     </classes>

@@ -22,7 +22,7 @@ public class checkresetpassword_characterlimit extends Commonoperations
 		Resetpassword.password.sendKeys("co");
 		Resetpassword.confirm_password.sendKeys("co");
 		Resetpassword.reset.click();
-		String user_text=Resetpassword.password_err.getText();
+		String user_text=Resetpassword.Resetpassword_err.getText();
 		Assert.assertEquals(user_text,"Enter Minimum 6 characters." );
 		
 	}

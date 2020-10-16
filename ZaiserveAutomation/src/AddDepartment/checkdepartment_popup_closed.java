@@ -7,22 +7,22 @@ import org.testng.annotations.Test;
 import Commonuntions.Commonoperations;
 import PageObjects.Adddepartmentobjects;
 
-public class checkdepartmentcreatebutton_exist extends Commonoperations {
+public class  checkdepartment_popup_closed extends Commonoperations
+
+{
+	
 	
 	
 	@Test
-	public void checkdepartcreate_btn_exist()
+	public void checkdepartname_Added()
 	{
-		//check the create button is present
-		
-		
-		
+		//check error message is displayed if the departname is already exist
 		
 		PageFactory.initElements(driver, Adddepartmentobjects.class);
 		Adddepartmentobjects.dep_popup_add.click();
-		String user_text=Adddepartmentobjects.dep_popup_create.getText();
-		Assert.assertEquals(user_text, "create");
-		
+		Adddepartmentobjects.department_name.sendKeys("Human Resource");
+	    Adddepartmentobjects.dep_popup_close.click();
 		
 	}
+	
 }

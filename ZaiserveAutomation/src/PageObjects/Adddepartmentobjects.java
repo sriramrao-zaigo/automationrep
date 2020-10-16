@@ -34,9 +34,16 @@ public class Adddepartmentobjects
    @FindBy(name="department_pop")
    public static WebElement dep_popup_cancel;
    
+   @FindBy(name="create_popup")
+   public static WebElement dep_popup_create;
+   
    
    @FindBy(name="department_lable")
    public static WebElement department_lable;
+   
+   @FindBy(name="success")
+   public static WebElement suc_msg;
+   
    
    
    

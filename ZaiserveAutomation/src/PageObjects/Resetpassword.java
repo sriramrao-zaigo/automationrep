@@ -29,7 +29,7 @@ public class Resetpassword
 		    public static  WebElement reset;
 
 		   @FindBy(xpath="//*[@id=\'email-error\']/strong")
-		   public static  WebElement password_err;
+		   public static  WebElement Resetpassword_err;
 
 		   
 		   

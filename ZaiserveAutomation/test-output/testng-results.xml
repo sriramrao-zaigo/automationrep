@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14509" started-at="2020-10-15T18:06:30 IST" finished-at="2020-10-15T18:06:44 IST">
+  <suite name="Suite" duration-ms="25159" started-at="2020-10-16T14:10:01 IST" finished-at="2020-10-16T14:10:26 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14509" started-at="2020-10-15T18:06:30 IST" finished-at="2020-10-15T18:06:44 IST">
-      <class name="Testcases.checkforgotpassword_LoginLink">
-        <test-method status="PASS" signature="Startbrowser()[pri:0, instance:Testcases.checkforgotpassword_LoginLink@50b494a6]" name="Startbrowser" is-config="true" duration-ms="13739" started-at="2020-10-15T18:06:30 IST" finished-at="2020-10-15T18:06:44 IST">
+    <test name="Test" duration-ms="25159" started-at="2020-10-16T14:10:01 IST" finished-at="2020-10-16T14:10:26 IST">
+      <class name="Testcases.checkwithusernamenull">
+        <test-method status="PASS" signature="Startbrowser()[pri:0, instance:Testcases.checkwithusernamenull@50b494a6]" name="Startbrowser" is-config="true" duration-ms="24456" started-at="2020-10-16T14:10:01 IST" finished-at="2020-10-16T14:10:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startbrowser -->
-        <test-method status="FAIL" signature="checkemailnotexist()[pri:0, instance:Testcases.checkforgotpassword_LoginLink@50b494a6]" name="checkemailnotexist" duration-ms="88" started-at="2020-10-15T18:06:44 IST" finished-at="2020-10-15T18:06:44 IST">
+        <test-method status="FAIL" signature="checkwithusernameempty()[pri:0, instance:Testcases.checkwithusernamenull@50b494a6]" name="checkwithusernameempty" duration-ms="52" started-at="2020-10-16T14:10:25 IST" finished-at="2020-10-16T14:10:26 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='login']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
   (Session info: chrome=86.0.4240.75)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'CYBERSPACE', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'CYBERSPACE', ip: '192.168.29.212', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b100b93f9bc0f5874a08e15bed35273a
-*** Element info: {Using=name, value=login}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b3bf42c2a1b6e4686246e52d32b8a2e
+*** Element info: {Using=name, value=email}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='login']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
   (Session info: chrome=86.0.4240.75)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'CYBERSPACE', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'CYBERSPACE', ip: '192.168.29.212', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b100b93f9bc0f5874a08e15bed35273a
-*** Element info: {Using=name, value=login}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b3bf42c2a1b6e4686246e52d32b8a2e
+*** Element info: {Using=name, value=email}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,8 +50,8 @@ at org.openqa.selenium.By$ByName.findElement(By.java:284)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at Testcases.checkforgotpassword_LoginLink.checkemailnotexist(checkforgotpassword_LoginLink.java:23)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at Testcases.checkwithusernamenull.checkwithusernameempty(checkwithusernamenull.java:22)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,12 +85,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkemailnotexist -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Testcases.checkforgotpassword_LoginLink@50b494a6]" name="close" is-config="true" duration-ms="645" started-at="2020-10-15T18:06:44 IST" finished-at="2020-10-15T18:06:44 IST">
+        </test-method> <!-- checkwithusernameempty -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testcases.checkwithusernamenull@50b494a6]" name="close" is-config="true" duration-ms="616" started-at="2020-10-16T14:10:26 IST" finished-at="2020-10-16T14:10:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Testcases.checkforgotpassword_LoginLink -->
+      </class> <!-- Testcases.checkwithusernamenull -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

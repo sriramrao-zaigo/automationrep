@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.checkforgotpassword_LoginLink">
+      <class name="Testcases.checkwithusernamenull">
         <methods>
           <include name="close"/>
           <include name="Startbrowser"/>
-          <include name="checkemailnotexist"/>
+          <include name="checkwithusernameempty"/>
         </methods>
-      </class> <!-- Testcases.checkforgotpassword_LoginLink -->
+      </class> <!-- Testcases.checkwithusernamenull -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
