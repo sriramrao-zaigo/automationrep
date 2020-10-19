@@ -6,8 +6,8 @@
      
     
          
-  <class name="Testcases.checkwithusernamenull"/>
-   <!--<class name="Testcases.checkwithnumalphabetsspecialcharacters"/>
+   <!-- <class name="Testcases.checkwithusernamenull"/>
+ <class name="Testcases.checkwithnumalphabetsspecialcharacters"/>
     <class name="Testcases.checkwithemptyspacesinuserid"/> 
       <class name="Testcases.checkcinputtype"/>
       
@@ -36,8 +36,9 @@
       
       <class name="Testcases.checkforgotpassword_LoginLink"/>
       
-      <class name="Testcases.checkwithvalidemail"/>-->
-      
+      <class name="Testcases.checkwithvalidemail"/>
+       <class name="Testcases.checkcinputtype"/>-->
+        <class name="Testcases.checkloginbtnpresent"/>
       
    
   

@@ -19,8 +19,8 @@ public class checkdepartment_description_mandatory extends Commonoperations
 			PageFactory.initElements(driver, Adddepartmentobjects.class);
 			Adddepartmentobjects.department_name.sendKeys("    ");
 			Adddepartmentobjects.dep_popup_add.click();
-			String user_text=Adddepartmentobjects.name_err.getText();
-			Assert.assertEquals(user_text, "Enter the Department Name");
+			String user_text=Adddepartmentobjects.description_err.getText();
+			Assert.assertEquals(user_text, "Enter the Description");
 			
 			
 		}
