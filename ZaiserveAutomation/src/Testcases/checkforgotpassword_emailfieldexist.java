@@ -19,6 +19,7 @@ public class checkforgotpassword_emailfieldexist extends Commonoperations
 		//check email field is present in the forgot password page
 		
 		PageFactory.initElements(driver, Forgotpassword.class);
+		
 		Forgotpassword.Email.sendKeys("hello");
 		String hello= Forgotpassword.Email.getText();
 		Assert.assertEquals(hello,"hello");

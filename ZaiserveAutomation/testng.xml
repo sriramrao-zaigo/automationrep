@@ -3,45 +3,25 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+       <!--  <class name="Testcases.checkcinputtype"/>
+     <class name="Testcases.checkloginbtnpresent"/>
+     
+     <class name="Testcases.checkuseridplaceholder"/>
+     <class name="Testcases.checkuserfieldpresent"/>
+     
+     <class name="Testcases.checkpasswordfieldpresent"/>
+     
+     <class name="Testcases.checkpasswordfieldpresent"/>
+     
+     
+    <class name="Testcases.checknavigatetoforgotpassword"/>
      
     
-         
-   <!-- <class name="Testcases.checkwithusernamenull"/>
- <class name="Testcases.checkwithnumalphabetsspecialcharacters"/>
-    <class name="Testcases.checkwithemptyspacesinuserid"/> 
-      <class name="Testcases.checkcinputtype"/>
-      
      
-      
-      <class name="Testcases.checkemailformaterror"/>
-      
-      <class name="Testcases.checkuserfieldpresent"/>
-      
-      <class name="Testcases.checkuseridplaceholder"/>
-      
-      
-      
-      <class name="Testcases.checkpasswordfieldpresent"/>
-      
-      <class name="Testcases.checkloginbtnpresent"/>
-      
-       
-      
-      <class name="Testcases.checkwithvalidemail"/>
-      
+     <class name="Testcases.checkwithforgotpasswordlink"/>-->
+     <class name="Testcases.checkuserfield_alphabets"/>
      
-      
-      <class name="Testcases.checkpassword_limits"/>
-      
-      
-      <class name="Testcases.checkforgotpassword_LoginLink"/>
-      
-      <class name="Testcases.checkwithvalidemail"/>
-       <class name="Testcases.checkcinputtype"/>-->
-        <class name="Testcases.checkloginbtnpresent"/>
-      
-   
-  
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

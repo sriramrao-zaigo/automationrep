@@ -7,7 +7,8 @@ import org.testng.annotations.Test;
 import Commonuntions.Commonoperations;
 import PageObjects.Loginobjects;
 
-public class checkiLogin_Lable extends Commonoperations {
+public class checkiLogin_Lable extends Commonoperations
+{
 	
 	
 	@Test
@@ -16,8 +17,9 @@ public class checkiLogin_Lable extends Commonoperations {
 		//check Login lable
 		
 		PageFactory.initElements(driver, Loginobjects.class);
-		String login_lable=Loginobjects.login.getText();
-		Assert.assertEquals(login_lable,"Enter a valid e-mail address");
+		String login_lable=Loginobjects.login_lable.getText();
+		System.out.println("login_lable");
+		Assert.assertEquals(login_lable,"User Management Login");
 	}
 	
 	

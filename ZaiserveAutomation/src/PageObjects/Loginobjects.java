@@ -15,7 +15,7 @@ WebDriver driver;
 		 
 
 		    @FindBy(name="login")
-			public static  WebElement userName;
+			public static WebElement userName;
 
 		    @FindBy(name="password")
             public static  WebElement password;    
@@ -27,7 +27,6 @@ WebDriver driver;
 		    public static  WebElement login;
 
 		  
-		    
 		   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[1]/span")
 		   public static  WebElement email_err;
 		   
@@ -37,6 +36,11 @@ WebDriver driver;
 		   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[1]/div/div[1]/label")
 		   public static  WebElement  userid_lable;
 		   
+		 
+		   
+		   @FindBy(xpath="//*[@id=\'root\']/div/div[2]/div/form/div[2]/div/div[1]/label")
+		   public static  WebElement  passwordplaceholder;
+		   
 		   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[3]/a/div")
 		   public static  WebElement  forgot_password;
 		   
@@ -44,6 +48,11 @@ WebDriver driver;
 		   
 		   @FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/form/div[2]/div[2]")
 		   public static  WebElement  loginpassword_err;
+		   
+		 //*[@id="root"]/div/div[2]/div/form/h5
+		   
+		   @FindBy(xpath="//*[@id=\'root\']/div/div[2]/div/form/h5")
+		   public static  WebElement  login_lable;
 		   
 		   
 		   

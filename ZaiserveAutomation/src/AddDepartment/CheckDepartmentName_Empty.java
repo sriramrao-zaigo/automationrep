@@ -13,7 +13,7 @@ public class  CheckDepartmentName_Empty extends Commonoperations
 
 {
 	
-	public void login()
+	public  void login()
 	{
 		//method for login
 		PageFactory.initElements(driver,Loginobjects.class);
@@ -28,6 +28,7 @@ public class  CheckDepartmentName_Empty extends Commonoperations
 	{
 		//check department name is empty
 		//department name should be mandatory
+		
 		login();
 		
 		PageFactory.initElements(driver, Adddepartmentobjects.class);

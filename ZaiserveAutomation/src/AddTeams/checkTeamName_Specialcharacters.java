@@ -8,23 +8,23 @@ import Commonuntions.Commonoperations;
 import PageObjects.AddTeamObjects;
 import PageObjects.Departmentobjects;
 
-public class CheckTeamName_Exist extends Commonoperations{
+public class checkTeamName_Specialcharacters extends Commonoperations{
 	
 	@Test
-	public void checkdepartname_Added()
+	public void checkdepartname_specialcharacters()
 	{
-		//check the name field exist
+		//check Error Message displayed if there is special characters in the team name.
 		
 		PageFactory.initElements(driver, Departmentobjects.class);
 		Departmentobjects.click_create_team.click();
 		
 		PageFactory.initElements(driver, AddTeamObjects.class);
 		
-		AddTeamObjects.team_name.sendKeys("Team Name");
-		String user_text=AddTeamObjects.team_name.getText();
+		AddTeamObjects.team_name.sendKeys("!@#$45");
+		AddTeamObjects.create_btn.click();
 		
-		
-		Assert.assertEquals(user_text, "Team Name");
+		String user_text=AddTeamObjects.team_name_err.getText();
+		Assert.assertEquals(user_text, "Enter the valid Team Name");
 		
 		
 	}

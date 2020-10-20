@@ -22,7 +22,6 @@ public class checkuserfieldpresent extends Commonoperations
 		PageFactory.initElements(driver, Loginobjects.class);
 		Loginobjects.userName.sendKeys("hell0@gmail.com");
 		String user_text=Loginobjects.userName.getAttribute("value");
-		System.out.println(user_text);
 		Assert.assertEquals(user_text,"hell0@gmail.com" );
 		
 	}

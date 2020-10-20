@@ -19,6 +19,7 @@ public class checkwithforgotpasswordlink extends Commonoperations
 		
 		PageFactory.initElements(driver, Loginobjects.class);
 		String user_text=Loginobjects.forgot_password.getText();
+		
 		Assert.assertEquals(user_text,"Forgot password");
 	}
 	

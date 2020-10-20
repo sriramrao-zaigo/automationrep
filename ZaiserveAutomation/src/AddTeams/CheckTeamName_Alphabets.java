@@ -8,25 +8,29 @@ import Commonuntions.Commonoperations;
 import PageObjects.AddTeamObjects;
 import PageObjects.Departmentobjects;
 
-public class CheckTeamName_Exist extends Commonoperations{
+public class CheckTeamName_Alphabets extends Commonoperations {
 	
 	@Test
-	public void checkdepartname_Added()
+	public void checkteamname_Alphabets()
 	{
-		//check the name field exist
+		//ensure the error method is not displayed
 		
 		PageFactory.initElements(driver, Departmentobjects.class);
 		Departmentobjects.click_create_team.click();
 		
 		PageFactory.initElements(driver, AddTeamObjects.class);
 		
-		AddTeamObjects.team_name.sendKeys("Team Name");
-		String user_text=AddTeamObjects.team_name.getText();
+		AddTeamObjects.team_name.sendKeys("Abcdefghijk");
+		AddTeamObjects.create_btn.click();
+		String user_text=AddTeamObjects.name_err.getText();
 		
-		
-		Assert.assertEquals(user_text, "Team Name");
+		Assert.assertEquals(user_text, "Abcdefghijk");
 		
 		
 	}
 
+
 }
+
+
+

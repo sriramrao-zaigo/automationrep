@@ -11,14 +11,14 @@ public class AddTeamObjects {
 	 
 	 
 
-    @FindBy(name="team_name")
+    @FindBy(name="name")
 	public static  WebElement team_name;
     
     @FindBy(name="team_name_err")
 	public static  WebElement team_name_err;
 
-   @FindBy(name="team_desc")
-   public static WebElement team_desc;
+    @FindBy(name="departmentname")
+    public static WebElement team_desc;
    
    
    @FindBy(name="name_err")
